@@ -39,3 +39,6 @@ console.log(typeof funcLit) // 输出：function
 const funcObj = new Function("x", "return x * x;")
 console.log(funcObj(5)) // 输出：25
 console.log(typeof funcObj) // 输出：function
+
+const obj1 = {}
+console.log(obj1, typeof obj1) // 输出：{} object
