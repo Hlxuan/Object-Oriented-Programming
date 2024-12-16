@@ -42,3 +42,6 @@ console.log(typeof funcObj) // 输出：function
 
 const obj1 = {}
 console.log(obj1, typeof obj1) // 输出：{} object
+
+const obj2 = new Object()
+console.log(obj2, typeof obj2) // 输出：{} object
