@@ -29,3 +29,9 @@ const arrLit = [1, 2, 3] // 数组字面量
 const arrObj = new Array(1, 2, 3) // 数组对象
 console.log(arrLit, typeof arrLit) // 输出：[1, 2, 3] object
 console.log(arrObj, typeof arrObj) // 输出：[1, 2, 3] object
+
+function funcLit(x) {
+  return x * x
+}
+console.log(funcLit(5)) // 输出：25
+console.log(typeof funcLit) // 输出：function
