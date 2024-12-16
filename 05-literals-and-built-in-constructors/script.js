@@ -24,3 +24,8 @@ const boolLit = true // 布尔字面量
 const boolObj = new Boolean(true) // 布尔对象
 console.log(boolLit, typeof boolLit) // 输出：true boolean
 console.log(boolObj, typeof boolObj) // 输出：[Boolean: true] object
+
+const arrLit = [1, 2, 3] // 数组字面量
+const arrObj = new Array(1, 2, 3) // 数组对象
+console.log(arrLit, typeof arrLit) // 输出：[1, 2, 3] object
+console.log(arrObj, typeof arrObj) // 输出：[1, 2, 3] object
