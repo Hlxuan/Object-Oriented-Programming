@@ -17,3 +17,5 @@ const rect2 = new Rectangle("矩形 2", 20, 10)
 const rect3 = new Rectangle("矩形 3", 30, 30)
 console.log(rect2.name)
 console.log(rect3.area())
+
+console.log(rect1.constructor)
