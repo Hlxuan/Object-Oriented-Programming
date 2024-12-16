@@ -11,3 +11,6 @@ console.log(strObj.valueOf(), typeof strObj.valueOf())
 
 console.log(strLit.constructor)
 console.log(Object.getPrototypeOf(strObj))
+
+console.log(strLit instanceof String)
+console.log(strObj instanceof String)
