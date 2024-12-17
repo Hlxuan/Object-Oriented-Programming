@@ -17,3 +17,8 @@ console.log(rect1["width"])
 
 rect1.color = "红色"
 console.log(rect1)
+
+rect2.perimeter = function () {
+  return 2 * (rect2.width + rect2.height)
+}
+console.log(rect2.perimeter())
