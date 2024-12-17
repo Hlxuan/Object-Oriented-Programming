@@ -14,3 +14,6 @@ console.log(rect1.name)
 console.log(rect2.width)
 
 console.log(rect1["width"])
+
+rect1.color = "红色"
+console.log(rect1)
