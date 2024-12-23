@@ -26,3 +26,6 @@ console.log(rect2.perimeter())
 console.log(rect2)
 delete rect2.perimeter
 console.log(rect2)
+
+console.log(rect1.hasOwnProperty("color"))
+console.log(rect2.hasOwnProperty("color"))
