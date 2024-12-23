@@ -35,3 +35,7 @@ console.log(Object.keys(rect1))
 console.log(Object.values(rect2))
 
 console.log(Object.entries(rect1))
+
+for (let [key, value] of Object.entries(rect1)) {
+  console.log(`${key} - ${value}`)
+}
