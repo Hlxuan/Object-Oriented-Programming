@@ -18,3 +18,8 @@ Circle.prototype = Object.create(Shape.prototype)
 
 Rectangle.prototype.constructor = Rectangle
 Circle.prototype.constructor = Circle
+
+Shape.prototype.logName = function () {
+  console.log(`
+    形状名称：${this.name}`)
+}
