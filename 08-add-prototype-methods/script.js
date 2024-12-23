@@ -36,3 +36,5 @@ const rect2 = new Rectangle("矩形 2", 30, 40)
 console.log(rect2.area())
 console.log(rect2.perimeter())
 console.log(rect2.isSquare())
+
+console.log(Object.getPrototypeOf(rect))
