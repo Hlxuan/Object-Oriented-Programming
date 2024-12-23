@@ -12,3 +12,5 @@ console.log(rect)
 
 console.log(rect.__proto__)
 console.log(rect.__proto__.constructor)
+
+console.log(rect.toString())
