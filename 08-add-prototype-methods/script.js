@@ -11,3 +11,6 @@ Rectangle.prototype.area = function () {
 const rect = new Rectangle("Rect", 10, 10)
 
 console.log(rect.area())
+
+console.log(rect)
+console.log(Object.getPrototypeOf(rect))
