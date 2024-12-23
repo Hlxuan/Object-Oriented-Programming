@@ -23,3 +23,8 @@ Shape.prototype.logName = function () {
   console.log(`
     形状名称：${this.name}`)
 }
+
+const rect = new Rectangle("矩形 1", 20, 30)
+const circle = new Circle("圆形 1", 15)
+rect.logName()
+circle.logName()
