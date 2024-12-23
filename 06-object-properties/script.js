@@ -31,3 +31,5 @@ console.log(rect1.hasOwnProperty("color"))
 console.log(rect2.hasOwnProperty("color"))
 
 console.log(Object.keys(rect1))
+
+console.log(Object.values(rect2))
