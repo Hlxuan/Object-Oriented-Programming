@@ -39,3 +39,9 @@ console.log(Object.entries(rect1))
 for (let [key, value] of Object.entries(rect1)) {
   console.log(`${key} - ${value}`)
 }
+
+for (let [key, value] of Object.entries(rect1)) {
+  if (typeof value !== "function") {
+    console.log(`${key} - ${value}`)
+  }
+}
