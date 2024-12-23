@@ -9,3 +9,20 @@ const rectanglePrototypes = {
     return this.width === this.height
   },
 }
+
+function createRectangle(width, height) {
+  return Object.create(rectanglePrototypes, {
+    width: {
+      value: width,
+      writable: true,
+      enumerable: true,
+      configurable: true,
+    },
+    height: {
+      value: height,
+      writable: true,
+      enumerable: true,
+      configurable: true,
+    },
+  })
+}
