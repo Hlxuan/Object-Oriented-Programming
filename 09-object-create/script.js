@@ -33,3 +33,7 @@ console.log(rect1)
 console.log(rect1.area())
 console.log(rect1.perimeter())
 console.log(rect1.isSquare())
+
+const rect2 = createRectangle(20, 20)
+console.log(rect2.area())
+console.log(rect2.isSquare())
