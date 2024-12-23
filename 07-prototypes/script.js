@@ -14,3 +14,6 @@ console.log(rect.__proto__)
 console.log(rect.__proto__.constructor)
 
 console.log(rect.toString())
+
+const arr = []
+console.log(arr.__proto__)
