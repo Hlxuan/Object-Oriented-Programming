@@ -31,3 +31,8 @@ console.log(rect.perimeter())
 console.log(rect.isSquare())
 rect.changeName("测试矩形")
 console.log(rect.name)
+
+const rect2 = new Rectangle("矩形 2", 30, 40)
+console.log(rect2.area())
+console.log(rect2.perimeter())
+console.log(rect2.isSquare())
