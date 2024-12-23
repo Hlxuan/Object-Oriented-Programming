@@ -26,3 +26,10 @@ function createRectangle(width, height) {
     },
   })
 }
+
+const rect1 = createRectangle(10, 20)
+console.log(rect1)
+
+console.log(rect1.area())
+console.log(rect1.perimeter())
+console.log(rect1.isSquare())
