@@ -22,3 +22,7 @@ rect2.perimeter = function () {
   return 2 * (rect2.width + rect2.height)
 }
 console.log(rect2.perimeter())
+
+console.log(rect2)
+delete rect2.perimeter
+console.log(rect2)
