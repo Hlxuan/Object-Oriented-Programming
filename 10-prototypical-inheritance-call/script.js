@@ -12,3 +12,6 @@ function Circle(name, radius) {
   Shape.call(this, name)
   this.radius = radius
 }
+
+Rectangle.prototype = Object.create(Shape.prototype)
+Circle.prototype = Object.create(Shape.prototype)
