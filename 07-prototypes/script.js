@@ -23,3 +23,5 @@ console.log(str.__proto__)
 
 const obj = {}
 console.log(obj.__proto__)
+
+console.log(Object.getPrototypeOf(rect))
