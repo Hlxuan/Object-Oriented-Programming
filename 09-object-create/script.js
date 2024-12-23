@@ -37,3 +37,5 @@ console.log(rect1.isSquare())
 const rect2 = createRectangle(20, 20)
 console.log(rect2.area())
 console.log(rect2.isSquare())
+
+console.log(Object.getPrototypeOf(rect1))
