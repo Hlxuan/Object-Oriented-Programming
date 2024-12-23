@@ -20,3 +20,6 @@ console.log(arr.__proto__)
 
 const str = new String("Hello")
 console.log(str.__proto__)
+
+const obj = {}
+console.log(obj.__proto__)
