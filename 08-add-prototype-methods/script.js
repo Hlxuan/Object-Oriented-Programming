@@ -8,12 +8,12 @@ Rectangle.prototype.area = function () {
   return this.width * this.height
 }
 
-const rect = new Rectangle("Rect", 10, 10)
+// const rect = new Rectangle("Rect", 10, 10)
 
-console.log(rect.area())
+// console.log(rect.area())
 
-console.log(rect)
-console.log(Object.getPrototypeOf(rect))
+// console.log(rect)
+// console.log(Object.getPrototypeOf(rect))
 
 Rectangle.prototype.perimeter = function () {
   return 2 * (this.width + this.height)
@@ -24,3 +24,10 @@ Rectangle.prototype.isSquare = function () {
 Rectangle.prototype.changeName = function (newName) {
   this.name = newName
 }
+
+const rect = new Rectangle("矩形 1", 10, 10)
+console.log(rect.area())
+console.log(rect.perimeter())
+console.log(rect.isSquare())
+rect.changeName("测试矩形")
+console.log(rect.name)
