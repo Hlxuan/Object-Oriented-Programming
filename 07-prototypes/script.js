@@ -9,3 +9,5 @@ function Rectangle(name, width, height) {
 
 const rect = new Rectangle("Rect", 10, 10)
 console.log(rect)
+
+console.log(rect.__proto__)
